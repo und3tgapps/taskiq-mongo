@@ -7,7 +7,10 @@ authors = [
     { name = "und3v3l0p3d", email = "prohibitme@ya.ru" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pymongo>=4.17.0",
+    "taskiq>=0.12.6",
+]
 
 [build-system]
 requires = ["uv_build>=0.11.23,<0.12.0"]
